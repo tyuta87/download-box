@@ -1,0 +1,2 @@
+
+zip -r download-box.xpi chrome chrome.manifest install.rdf
