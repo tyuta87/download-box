@@ -1,0 +1,10 @@
+content downloadbox chrome/content/
+
+locale downloadbox en-US chrome/locale/en-US/
+locale downloadbox ja-JP chrome/locale/ja-JP/
+
+skin downloadbox classic/1.0 chrome/skin/
+
+overlay chrome://browser/content/browser.xul chrome://downloadbox/content/overlay.xul
+
+style chrome://global/content/customizeToolbar.xul chrome://downloadbox/skin/toolbarbutton.css
