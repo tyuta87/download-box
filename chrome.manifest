@@ -5,6 +5,8 @@ locale downloadbox ja-JP chrome/locale/ja-JP/
 
 skin downloadbox classic/1.0 chrome/skin/
 
-overlay chrome://browser/content/browser.xul chrome://downloadbox/content/overlay.xul
+overlay chrome://browser/content/browser.xul chrome://downloadbox/content/overlay-v4.xul appversion<14
+overlay chrome://browser/content/browser.xul chrome://downloadbox/content/overlay-v14.xul appversion>=14
 
-style chrome://global/content/customizeToolbar.xul chrome://downloadbox/skin/toolbarbutton.css
+style chrome://global/content/customizeToolbar.xul chrome://downloadbox/skin/toolbarbutton-v4.css appversion<14
+style chrome://global/content/customizeToolbar.xul chrome://downloadbox/skin/toolbarbutton-v14.css appversion>=14

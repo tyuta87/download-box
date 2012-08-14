@@ -6,16 +6,16 @@
 	<Description about="urn:mozilla:install-manifest">
 		<em:name>Download Box</em:name>
 		<em:id>{bc757c7f-e10b-45d7-a907-ce680c715827}</em:id>
-		<em:version>0.3.1</em:version>
+		<em:version>0.4.0</em:version>
 		<em:type>2</em:type>
 		<em:description>A toolbar button for showing download progress.</em:description>
-		<em:creator>anon21</em:creator>
+		<em:creator>tyuta87</em:creator>
 		
 		<em:targetApplication>
 			<Description>
 				<em:id>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</em:id>
 				<em:minVersion>4.0</em:minVersion>
-				<em:maxVersion>7.*</em:maxVersion>
+				<em:maxVersion>14.*</em:maxVersion>
 			</Description>
 		</em:targetApplication>
 		
